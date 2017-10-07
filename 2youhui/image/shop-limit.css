@@ -1,0 +1,361 @@
+body {
+    background: #ededed;
+}
+#MEIQIA-BTN-HOLDER{
+    display:none!important;
+}
+.container {
+    width: 100%;
+}
+
+.bannerBig {
+    width: 100%;
+    min-width: 1190px;
+}
+
+.bannerBig img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container .inner-container {
+    width: 1190px;
+    margin: 40px auto;
+}
+
+.inner-container .list-title{
+    margin: 30px 0 10px 0;
+    overflow: hidden;
+}
+
+.shop-recommend ul li {
+    float: left;
+    margin-right: 3px;
+    width: 294px;
+    height: 324px;
+}
+
+.shop-recommend ul {
+    overflow: hidden;
+}
+
+.list-ul {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.list-title img {
+    float: left;
+}
+.list-title a {
+    float: right;
+    font-size: 18px;
+    color: #333333;
+}
+
+.list-ul .item-detail{
+    margin-right: 4px;
+}
+
+.item-detail {
+    width: 234px;
+    height: 373px;
+    float: left;
+}
+
+/*.item-detail img {*/
+    /*width: 234px;*/
+    /*height: 234px;*/
+/*}*/
+
+.item-detail .item-name {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333333;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-detail .item-price {
+    color: #e74c3c;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.item-detail .item-price .originalPrice {
+    font-size: 14px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.item-detail a {
+    display: inline-block;
+    width: 100%;
+}
+
+.item-detail img {
+    width: 100%;
+    width: 234px;
+    height: 234px;
+}
+
+.item-detail .ziying {
+    width: 72px;
+    height: 22px;
+}
+
+.qq-contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qq-contact a {
+    display: inline;
+}
+
+.qq-contact a img {
+    width: auto;
+    height: auto;
+}
+
+/*
+    商品列表统一样式
+*/
+
+.styleItem{
+    display:inline-block;
+    width:194px;
+    margin-left:34px;
+    overflow:hidden;
+    margin-bottom:32px;
+    margin-top: 20px;
+}
+.styleItem a{
+    color:#333;
+}
+.styleItem img{
+    width:194px;
+    height:194px;
+}
+.description{
+    margin-bottom:12px;
+    height:30px;
+    overflow:hidden;
+    line-height:30px;
+}
+.styleItem .styleCon-box{
+    padding-left:5px;
+}
+.btn-size{
+    width: 194px;
+    height: 39px;
+    font-size: 14px;
+    line-height: 41px;
+    text-align:center;
+    font-size:16px;
+}
+.col-price{
+    font-size:26px;
+    margin-right:4px;
+}
+.style-title{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.styleShop{
+    width:215px;
+    display:inline-block;
+    margin-left:16px;
+    margin-bottom:18px;
+}
+.styleShop img{
+    width:215px;
+    height:215px;
+}
+.shopStyle-box{
+    margin-top:40px;
+}
+.styleImgBox{
+    width:194px;
+    height:194px;
+}
+
+/*
+   轮播图区域样式
+*/
+
+.logo-container {
+    padding:20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.logo-container ul {
+    white-space: nowrap;
+}
+
+.logo-container ul li{
+    display: inline-block;
+    height: 190px;
+    line-height: 190px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+/*轮播开始*/
+.swiper-container{
+    position: relative;
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+.swiper-container .swiper-wrapper {
+    position: absolute;
+}
+.swiper-wrapper .swiper-slide{
+    width:20%;
+}
+.swiper-pagination-switch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('../../images/icon.png') no-repeat -78px -216px;
+    /*margin-right: 5px;*/
+    opacity: 0.8;
+    cursor: pointer;
+    margin:0 2px;
+}
+
+.swiper-active-switch {
+    background-position: -99px -202px;
+    border-radius:50%;
+}
+
+#homeCarousel .swiper-slide {
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/*右侧qq微信选择*/
+.fixedtool{
+    width:52px;
+    height:420px;
+    position:fixed;
+    right:10px;
+    top:50%;
+    margin-top:-210px;
+    background:#fff;
+    padding:0 4px;
+    z-index:10;
+    border-top:4px solid #e74c3c;
+}
+.fixedtool-right{
+    width:52px;
+    height:64px;
+    stroke-dasharray: 4;
+    stroke-dashoffset: 22;
+    border-bottom:2px dashed #f0f0f0;
+}
+.fixedtool-right.active{
+    border-bottom:2px dashed #e74c3c;
+}
+.fixedtool-right a{
+    display:block;
+    width:48px;
+    height:54px;
+    margin:12px auto 0;
+}
+.fixedtool-qq a{
+    background:url(../../images/shoplimit/qq.jpg) no-repeat;
+}
+.fixedtool-wx a{
+    background:url(../../images/shoplimit/wx.jpg) no-repeat;
+}
+.fixedtool-wx .wx-ewm{
+    width:106px;
+    height:106px;
+    border:4px solid #fff;
+    position: absolute;
+    left: -122px;
+    top: 55px;
+    display:none;
+    background:url(../../images/shoplimit/ewm.jpg) no-repeat;
+}
+.fixedtool-wx .wx-ewm .arrow-right{
+    display: block;
+    width: 9px;
+    height: 14px;
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    margin-top: -7px;
+    background:url(../../images/shoplimit/arrow-right.png) no-repeat;
+}
+.fixedtool-wx.active .wx-ewm{
+    display:block;
+}
+.fixedtool-box{
+    margin-top:14px;
+}
+.fixedtool-list{
+    width: 120px;
+    height: 46px;
+    margin: 0 auto 14px;
+    position: relative;
+    left: -34px;
+}
+.fixedtool-list .fixedtool-text{
+    display:block;
+    color:#e74b3c;
+    line-height: 46px;
+    text-align:center;
+    width: 43px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid #e74b3c;
+    margin: 0 auto 14px;
+    position: relative;
+}
+.fixedtool-list.active .fixedtool-text{
+    color:#fff;
+    background:#e74c3c;
+}
+.in-fixedtool-text{
+    width: 120px;
+    height: 78px;
+    position: absolute;
+    right: 101px;
+    top: -14px;
+    border:1px solid #ececec;
+    background:#fff;
+    padding-left:12px;
+    display:none;
+}
+.in-fixedtool-text .arrow-right{
+    display: block;
+    width: 9px;
+    height: 14px;
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    margin-top: -7px;
+    background:url(../../images/shoplimit/arrow-right.png) no-repeat;
+}
+.fixedtool-list.active .in-fixedtool-text{
+    display:block;
+}
+.in-fixedtool-text .title{
+    line-height:26px;
+}
+.fixedtool-classify a{
+    display:inline-block;
+    width:50px;
+    line-height:26px;
+}
